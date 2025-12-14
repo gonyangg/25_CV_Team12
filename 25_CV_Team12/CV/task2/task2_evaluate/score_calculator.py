@@ -34,6 +34,7 @@ if __name__ == '__main__':
     parser.add_argument('--result-folder', type=str, required=True)
     parser.add_argument('--style-folder', type=str, required=True)
     parser.add_argument('--output-csv', type=str, default='style_similarity_scores.csv', required=False)
+    parser.add_argument('--onnx-path', type=str,  required=True)
 
     try:
         args = parser.parse_args()
@@ -66,12 +67,11 @@ if __name__ == '__main__':
         print(f"Error loading single style image at {single_style_path}: {e}")
         exit()
 
-    # load the StyleSimiliaryDiscriminator model
-    onnx_path = '/content/drive/MyDrive/task2_evaluate/StyleSimiliaryDiscriminator.onnx'
+  
     try:
-        onnx_sess = onnxruntime.InferenceSession(onnx_path)
+        onnx_sess = onnxruntime.InferenceSession(args.onnx_path)
     except Exception as e:
-        print(f"Error loading ONNX model at {onnx_path}.")
+        print(f"Error loading ONNX model at {args.onnx_path}.")
         print(f"Detail: {e}")
         exit()
 
