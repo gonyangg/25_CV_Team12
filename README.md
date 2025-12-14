@@ -3,7 +3,7 @@
 
 ## demo.ipynb
 포즈 & 색상에 대한 가이드를 주는 사진 가이드 시스템에 대한 데모 코드입니다. 
-T4 gpu나 colab 파일에서 설정할 수 없는 코드는 아래의 3d_mesh.py, webcam.py로 실행할 수 있도록 하였습니다. 
+T4 gpu를 필요로 하거나 colab 파일에서 설정할 수 없는 코드는 아래의 3d_mesh.py, webcam.py로 실행할 수 있도록 하였습니다. 
 
 ## 3d_mesh.py
 SAM3D_Body 모델을 이용해 3d mesh 이미지를 저장하는 코드입니다.
