@@ -1,0 +1,20 @@
+File_Name,Content_Similarity_Score
+b1_transfer.jpg,0.9015
+b2_WB.png,0.8332
+b1_cast_removed.jpg,0.8451
+b2_Exposure.png,0.8564
+b2_Sharpen.png,0.7082
+b1_lum.jpg,0.8992
+b2_Clarity.png,0.8439
+b1_chroma.jpg,0.8840
+b2_H_S.png,0.8491
+b1_bw.jpg,0.8544
+b2_Base .png,0.8472
+b2_d_v.png,0.7319
+b1_denoise.jpg,0.9035
+b2_S_V.png,0.8517
+NPM.jpg,0.9286
+b2_B_W.png,0.8608
+b2_Contrast.png,0.8470
+---,---
+Average Score,0.8498

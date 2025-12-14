@@ -1,0 +1,20 @@
+File_Name,Style_Similarity_Score
+NPM.jpg,0.9239
+b1_transfer.jpg,0.9156
+b1_bw.jpg,0.9431
+b1_lum.jpg,0.9042
+b1_chroma.jpg,0.9370
+b1_cast_removed.jpg,0.7293
+b1_denoise.jpg,0.9154
+b2_WB.png,0.7308
+b2_Sharpen.png,0.7147
+b2_S_V.png,0.7634
+b2_H_S.png,0.7834
+b2_Exposure.png,0.8903
+b2_d_v.png,0.6403
+b2_Contrast.png,0.6920
+b2_Clarity.png,0.7087
+b2_Base.png,0.7004
+b2_B_W.png,0.7819
+---,---
+Average Score,0.8044
