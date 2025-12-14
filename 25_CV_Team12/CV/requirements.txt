@@ -1,0 +1,48 @@
+# Core ML / Vision
+pytorch-lightning
+timm
+einops
+fvcore
+optree
+
+# Computer Vision
+opencv-python
+pyrender
+scikit-image
+pycocotools
+xtcocotools
+roma
+
+# Config / Experiment
+yacs
+hydra-core
+hydra-submitit-launcher
+hydra-colorlog
+wandb
+tensorboard
+
+# Data / Utils
+numpy
+pandas
+joblib
+networkx==3.2.1
+webdataset
+jsonlines
+dill
+rich
+loguru
+appdirs
+appnope
+chump
+
+# Visualization
+seaborn
+
+# System / Build
+cython
+pytest
+black
+ffmpeg-python
+
+# HuggingFace
+huggingface_hub
