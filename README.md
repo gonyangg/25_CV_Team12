@@ -33,3 +33,24 @@ SAM3D_Body 모델을 이용해 3d mesh 이미지를 저장하는 코드입니다
 s- 사진 촬영
 
 ESC- 프로그램 중단
+
+## 코드 출처
+- **SAM3D Body**  
+  Official repository: https://github.com/facebookresearch/sam-3d-body  
+  Paper: *SAM3D Body: Robust Full-Body Human Mesh Recovery*, Meta AI Research
+
+- **MoGe**  
+  Repository: https://github.com/microsoft/MoGe
+
+- **Neural Preset**
+  Official repository: https://github.com/ZHKKKe/NeuralPreset.git
+  Paper: *Neural Preset for Color Style Transfer(CVPR 2023)
+  @misc{ke2023neuralpresetcolorstyle,
+      title={Neural Preset for Color Style Transfer}, 
+      author={Zhanghan Ke and Yuhao Liu and Lei Zhu and Nanxuan Zhao and Rynson W. H. Lau},
+      year={2023},
+      eprint={2303.13511},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2303.13511}, 
+}
