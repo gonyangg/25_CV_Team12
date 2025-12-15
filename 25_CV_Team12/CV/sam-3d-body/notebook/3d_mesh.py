@@ -30,6 +30,7 @@ estimator = setup_sam_3d_body(hf_repo_id="facebook/sam-3d-body-dinov3")
 visualizer = setup_visualizer()
 
 image_path = f"{PROJECT_ROOT}/original4.jpg"  # Relative to notebook folder
+img_cv2 = cv2.imread(image_path)
 outputs = estimator.process_one_image(image_path)
 
 if outputs:
